@@ -1,5 +1,5 @@
 {
-  "name": "egg-egg-tic-amqplib",
+  "name": "egg-tic-amqplib",
   "version": "1.0.0",
   "description": "",
   "eggPlugin": {
@@ -47,12 +47,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eggjs/egg-egg-tic-amqplib.git"
+    "url": "https://github.com/PerfectDemo/egg-tic-amqplib"
   },
   "bugs": {
-    "url": "https://github.com/eggjs/egg/issues"
+    "url": "https://github.com/PerfectDemo/egg-tic-amqplib/issues"
   },
-  "homepage": "https://github.com/eggjs/egg-egg-tic-amqplib#readme",
+  "homepage": "https://github.com/PerfectDemo/egg-tic-amqplib",
   "author": "tic",
   "license": "MIT"
 }

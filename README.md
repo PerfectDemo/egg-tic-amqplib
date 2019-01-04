@@ -1,4 +1,4 @@
-# egg-egg-tic-amqplib
+# egg-tic-amqplib
 
 [![NPM version][npm-image]][npm-url]
 [![build status][travis-image]][travis-url]
@@ -7,18 +7,18 @@
 [![Known Vulnerabilities][snyk-image]][snyk-url]
 [![npm download][download-image]][download-url]
 
-[npm-image]: https://img.shields.io/npm/v/egg-egg-tic-amqplib.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/egg-egg-tic-amqplib
-[travis-image]: https://img.shields.io/travis/eggjs/egg-egg-tic-amqplib.svg?style=flat-square
-[travis-url]: https://travis-ci.org/eggjs/egg-egg-tic-amqplib
-[codecov-image]: https://img.shields.io/codecov/c/github/eggjs/egg-egg-tic-amqplib.svg?style=flat-square
-[codecov-url]: https://codecov.io/github/eggjs/egg-egg-tic-amqplib?branch=master
-[david-image]: https://img.shields.io/david/eggjs/egg-egg-tic-amqplib.svg?style=flat-square
-[david-url]: https://david-dm.org/eggjs/egg-egg-tic-amqplib
-[snyk-image]: https://snyk.io/test/npm/egg-egg-tic-amqplib/badge.svg?style=flat-square
-[snyk-url]: https://snyk.io/test/npm/egg-egg-tic-amqplib
-[download-image]: https://img.shields.io/npm/dm/egg-egg-tic-amqplib.svg?style=flat-square
-[download-url]: https://npmjs.org/package/egg-egg-tic-amqplib
+[npm-image]: https://img.shields.io/npm/v/egg-tic-amqplib.svg?style=flat-square
+[npm-url]: https://npmjs.org/package/egg-tic-amqplib
+[travis-image]: https://img.shields.io/travis/eggjs/egg-tic-amqplib.svg?style=flat-square
+[travis-url]: https://travis-ci.org/eggjs/egg-tic-amqplib
+[codecov-image]: https://img.shields.io/codecov/c/github/eggjs/egg-tic-amqplib.svg?style=flat-square
+[codecov-url]: https://codecov.io/github/eggjs/egg-tic-amqplib?branch=master
+[david-image]: https://img.shields.io/david/eggjs/egg-tic-amqplib.svg?style=flat-square
+[david-url]: https://david-dm.org/eggjs/egg-tic-amqplib
+[snyk-image]: https://snyk.io/test/npm/egg-tic-amqplib/badge.svg?style=flat-square
+[snyk-url]: https://snyk.io/test/npm/egg-tic-amqplib
+[download-image]: https://img.shields.io/npm/dm/egg-tic-amqplib.svg?style=flat-square
+[download-url]: https://npmjs.org/package/egg-tic-amqplib
 
 <!--
 Description here.
@@ -27,7 +27,7 @@ Description here.
 ## Install
 
 ```bash
-$ npm i egg-egg-tic-amqplib --save
+$ npm i egg-tic-amqplib --save
 ```
 
 ## Usage
@@ -36,7 +36,7 @@ $ npm i egg-egg-tic-amqplib --save
 // {app_root}/config/plugin.js
 exports.eggTicAmqplib = {
   enable: true,
-  package: 'egg-egg-tic-amqplib',
+  package: 'egg-tic-amqplib',
 };
 ```
 
