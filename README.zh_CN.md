@@ -43,25 +43,53 @@ egg-tic-amqplib 版本 | egg 1.x
 
 -->
 
-## 开启插件
+### 安装
+`npm i egg-tic-amqplib --save`
 
-```js
-// config/plugin.js
+
+### 插件引入
+在`plugin.js`文件中加入一下代码
+```
 exports.eggTicAmqplib = {
-  enable: true,
-  package: 'egg-tic-amqplib',
+    enable: true,
+    package: 'egg-tic-amqplib'
 };
 ```
 
-## 使用场景
+### 配置文件
+`config.default.js`
+```
+ config.amqplib = {
+        client: {
+            // url: 'amqp://localhost',
+            connectOptions: {
+                protocol: 'amqp', 
+                hostname: '127.0.0.1',
+                port: 5672,
+                username: 'guest',
+                password: 'guest123',
+                locale: 'zh_CN',
+                frameMax: 0,
+                heartbeat: 0,
+                vhost: '/'
+            }
+            // socketOptions: {
+            //   cert: certificateAsBuffer, // client cert
+            //   key: privateKeyAsBuffer, // client key
+            //   passphrase: 'MySecretPassword', // passphrase for key
+            //   ca: [caCertAsBuffer], // array of trusted CA certs
+            // },
+        }
 
-- Why and What: 描述为什么会有这个插件，它主要在完成一件什么事情。
-尽可能描述详细。
-- How: 描述这个插件是怎样使用的，具体的示例代码，甚至提供一个完整的示例，并给出链接。
+    };
+```
 
-## 详细配置
-
-请到 [config/config.default.js](config/config.default.js) 查看详细配置项说明。
+### 使用方法
+该库进行[amqplib](http://www.squaremobius.net/amqp.node/channel_api.html)进行封装
+具体操作方法可点击链接查看文档。
+插件引入后，app.amqplib为amqplib.connect方法创建的对象
+可在定时器或者controller或service中app.amqplib直接访问
+* app.js下无法直接访问到app.amplib, 因为amqplib.connect为异步方法
 
 ## 单元测试
 
